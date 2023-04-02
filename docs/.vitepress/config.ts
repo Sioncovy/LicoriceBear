@@ -12,35 +12,38 @@ export default defineConfig({
       { text: 'Reading', link: '/reading/' },
       { text: 'Web', link: '/web/' },
       { text: 'Coding', link: '/coding/' },
+      { text: 'Practice', link: '/practice/' }
     ],
-
     sidebar: {
       '/trifles/': [
         {
           text: '随想',
-          items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' },
-          ],
+          items: []
         },
         {
           text: '年终总结',
           items: [
             { text: '2021年总结', link: '/trifles/summary/2021' },
-            { text: '2022年总结', link: '/trifles/summary/2022' },
-          ],
-        },
+            { text: '2022年总结', link: '/trifles/summary/2022' }
+          ]
+        }
       ],
       '/coding/': [
         {
           text: 'Rust',
           items: [
             { text: '开始', link: '/coding/rust/start.md' },
-            { text: '错题集', link: '/coding/rust/practice-errors.md' },
-          ],
-        },
+            { text: '错题集', link: '/coding/rust/practice-errors.md' }
+          ]
+        }
       ],
+      '/practice/': [
+        {
+          text: 'Github Action 自动化部署',
+          link: '/practice/github-action-deploy.md'
+        }
+      ]
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Sioncovy' }],
-  },
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Sioncovy' }]
+  }
 })
