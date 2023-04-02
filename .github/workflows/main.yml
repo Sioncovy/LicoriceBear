@@ -7,10 +7,10 @@ jobs:
     name: build
     steps:
       # check out the repository
-      - name: Checkout    
-        uses: actions/checkout@v3    #这里使用了github官方提供的action,checkout项目到虚拟机上
-      - name: Install pnpm
-        run: npm i pnpm
+      - uses: actions/checkout@v3 #这里使用了github官方提供的action,checkout项目到虚拟机上
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7    
       - name: Install Dependencies
         run: pnpm i
       - name: Build
