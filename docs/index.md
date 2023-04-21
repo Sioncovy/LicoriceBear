@@ -7,7 +7,7 @@ hero:
   text: "甘草熊的博客"
   tagline: 且陶陶，乐尽天真。几时归去，做个闲人。
   image:
-    src: /logo2.png
+    src: /logo3.png
     alt: LicoriceBear
   actions:
     - theme: brand
