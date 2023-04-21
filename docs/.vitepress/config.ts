@@ -10,9 +10,10 @@ export default defineConfig({
     nav: [
       { text: 'Trifles', link: '/trifles/' },
       { text: 'Reading', link: '/reading/' },
-      { text: 'Web', link: '/web/' },
+      { text: 'Front-End', link: '/front-end/' },
       { text: 'Coding', link: '/coding/' },
-      { text: 'Practice', link: '/practice/' }
+      { text: 'Practice', link: '/practice/' },
+      { text: 'Friends', link: '/friends/' }
     ],
     sidebar: {
       '/trifles/': [
@@ -25,6 +26,48 @@ export default defineConfig({
           items: [
             { text: '2021年总结', link: '/trifles/summary/2021' },
             { text: '2022年总结', link: '/trifles/summary/2022' }
+          ]
+        }
+      ],
+      '/reading/': [
+        {
+          text: '书单',
+          items: [
+            { text: '2022年及以前', link: '/reading/book-list/2022' },
+            { text: '2023年', link: '/reading/book-list/2023' }
+          ]
+        },
+        {
+          text: '读书笔记',
+          items: [
+            {
+              text: '2023年',
+              items: [
+                {
+                  text: '《JavaScript高级程序设计》',
+                  link: '/reading/reading-notes/2023/JavaScript高级程序设计'
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      '/front-end/': [
+        {
+          text: 'Vue',
+          items: []
+        },
+        {
+          text: 'React',
+          items: []
+        },
+        {
+          text: 'Book',
+          items: [
+            {
+              text: '《JavaScript高级程序设计》',
+              link: '/front-end/book/JavaScript高级程序设计'
+            }
           ]
         }
       ],
@@ -44,6 +87,10 @@ export default defineConfig({
         }
       ]
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Sioncovy' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Sioncovy' }],
+    footer: {
+      message: `蜀ICP备2023001934号-1`,
+      copyright: 'Copyright © 2023-present by Licorice Bear'
+    }
   }
 })
