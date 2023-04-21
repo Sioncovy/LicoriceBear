@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.vuejs.org/reference/site-config
 export default defineConfig({
   title: 'Licorice Bear',
+  lang: 'zh-CN',
   description: '甘草熊的博客，记录一些关于前端、算法和一些杂感',
   lastUpdated: true,
   themeConfig: {
