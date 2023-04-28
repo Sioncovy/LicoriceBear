@@ -1,5 +1,5 @@
 # 友链传送门
-- [Sophie](https://sophieyx.github.io/) —— 叮咚！任务加载中~
+- [Sophie](https://sophiey.top/) —— 叮咚！任务加载中~
 ---
 - [祭夜](https://www.jysafe.cn/) —— 我很好奇！
 - [CSZongzi](https://nullptr.zone/) —— 这里是一只偏前端的全栈粽子。
