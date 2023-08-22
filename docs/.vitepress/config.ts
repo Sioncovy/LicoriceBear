@@ -12,6 +12,7 @@ export default defineConfig({
       { text: 'Reading', link: '/reading/' },
       { text: 'Front-End', link: '/front-end/' },
       { text: 'Coding', link: '/coding/' },
+      { text: 'Algorithm', link: '/algorithm/' },
       { text: 'Practice', link: '/practice/' },
       { text: 'Friends', link: '/friends/' }
     ],
@@ -77,6 +78,15 @@ export default defineConfig({
           items: [
             { text: '开始', link: '/coding/rust/start.md' },
             { text: '错题集', link: '/coding/rust/practice-errors.md' }
+          ]
+        }
+      ],
+      '/algorithm/': [
+        {
+          text: 'LeetCode',
+          items: [
+            { text: '139. 单词拆分', link: '/algorithm/leetcode/139.md' },
+            { text: '198. 打家劫舍', link: '/algorithm/leetcode/198' }
           ]
         }
       ],
