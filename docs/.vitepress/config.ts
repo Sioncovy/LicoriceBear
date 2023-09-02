@@ -99,7 +99,7 @@ export default defineConfig({
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/Sioncovy' }],
     footer: {
-      message: `蜀ICP备2023001934号-1`,
+      message: `<a href="https://beian.miit.gov.cn">蜀ICP备2023001934号-1</a>`,
       copyright: 'Copyright © 2023-present by Licorice Bear'
     }
   }
